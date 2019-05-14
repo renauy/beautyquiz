@@ -105,7 +105,7 @@ class App extends Component {
     } else {
       var maxindex = 0;
       var maxvalue = result[0];
-      for(var x = 0; x < result.length(); x++){
+      for(var x = 0; x < result.length; x++){
         if(result[x] > maxvalue){
           maxvalue = result[x];
         }
