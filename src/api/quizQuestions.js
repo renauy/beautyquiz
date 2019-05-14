@@ -1,110 +1,111 @@
 var quizQuestions = [
     {
-        question: "How do your pores generally look like?",
+        question: "How do your pores look like?",
         answers: [
             {
-                type: "Oily",
-                content: "Large and visible"
+                type: "Normal",
+                content: "Small and unnoticable"
             },
             {
-                type: "Normal",
-                content: "Unnoticable"
+                type: "Combination",
+                content: "Large with dry patches"
+            },
+            {
+                type: "Oily",
+                content: "Large"
             },
             {
               type: "Dry",
-              content: "Small pores that feel tight"
-            },
-            {
-                type: "Combination",
-                content: "Medium sized and mainly visible in T-zone"
-            }
+              content: "Medium to small"
+          }
         ]
     },
     {
-        question: "How does your skin typically feel?",
+        question: "How is your skin like throughout the day?",
         answers: [
             {
-                type: "Oily",
-                content: "Greasy and needs to be blotted throughout day"
+                type: "Normal",
+                content: "Not too dry or oily"
             },
             {
-                type: "Normal",
-                content: "Not too dry or oil and is not that sensitive"
+                type: "Combination",
+                content: "Oily in the T-zone (nose) area and dry everywhere else"
+            },
+            {
+                type: "Oily",
+                content: "Greasy and needs to be blotted throughout the day"
             },
             {
               type: "Dry",
-              content: "Feels dry and tight especially during winter"
-            },
-            {
-                type: "Combination",
-                content: "Feels oily in T-zone area but dry everywhere else"
-            }
-        ]
-    },
-    {
-        question: "How does your skin feel after cleansing?",
-        answers: [
-            {
-                type: "Oily",
-                content: "Feels clean and oil-free but oiliness returns soon after"
-            },
-            {
-                type: "Normal",
-                content: "Feels clean and not greasy/dry throughout day"
-            },
-            {
-                type: "Dry",
-                content: "Feels tight and dry and in need of moisturizer"
-            },
-  
-            {
-                type: "Combination",
-                content: "Oil-free around nose area but dry around cheek area"
-            }
+              content: "Dry or tight especially during winter"
+          }
         ]
     },
     {
         question: "How often do you need to moisturize?",
         answers: [
             {
-                type: "Oily",
-                content: "Once throughout day as skin stays oily throughout"
+                type: "Normal",
+                content: "Just once throughout the day as skin stays fairly hydrated"
             },
             {
-                type: "Normal",
-                content: "Just once throughout day as skin stays fairly hydrated"
+                type: "Combination",
+                content: "Once or twice, focusing around cheek area"
+            },
+            {
+                type: "Oily",
+                content: "Once as skin stays oil throughout the day"
             },
             {
               type: "Dry",
-              content: "Immediately after cleansing skin and throughout day"
-            },
-            {
-                type: "Combination",
-                content: "Usually around cheek area but not around T-zone area"
-            }
+              content: "Immediately after cleansing the skin and throughout the day"
+          }
+            
         ]
     },
     {
-        question: "What type of moisturizer do you usually use?",
+        question: "What are your main skin concerns?",
         answers: [
             {
-                type: "Oily",
-                content: "Oil-free or gel-based"
-            },
-            {
                 type: "Normal",
-                content: "Any moisturizer will do"
-            },
-            {
-                type: "Dry",
-                content: "Rich and typically fragrance-free"
+                content: "None in particular"
             },
             {
                 type: "Combination",
+                content: "Dryness around cheek area and Oiliness in T-zone"
+            },
+            {
+                type: "Oily",
+                content: "Breakouts"
+            },
+            {
+              type: "Dry",
+              content: "Flakiness and wrinkles"
+          }
+        ]
+    },
+    {
+        question: "What type of moisturizer do you currently use?",
+        answers: [
+            {
+                type: "Normal",
+                content: "Any type"
+            },
+            {
+                type: "Combination",
+                content: "Oil-free or lighter in formula"
+            },
+            {
+                type: "Oily",
                 content: "Gel-based"
-            }
+            },
+            {
+              type: "Dry",
+              content: "Thick and Rich moisturizers"
+          }
         ]
     }
   ];
-
-export default quizQuestions;
+  
+  export default quizQuestions;
+  

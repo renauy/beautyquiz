@@ -16,9 +16,10 @@ class App extends Component {
       answerOptions: [],
       answer: '',
       answersCount: {
-        Nintendo: 0,
-        Microsoft: 0,
-        Sony: 0
+        Normal: 0,
+        Combination: 0,
+        Oily: 0,
+        Dry:0
       },
       result: ''
     };
@@ -102,7 +103,14 @@ class App extends Component {
     if (result.length === 1) {
       this.setState({ result: result[0] });
     } else {
-      this.setState({ result: 'Undetermined' });
+      var maxindex = 0;
+      var maxvalue = result[0];
+      for(var x = 0; x < result.length(); x++){
+        if(result[x] > maxvalue){
+          maxvalue = result[x];
+        }
+      }
+      this.setState({ result: result[maxindex] });
     }
   }
 
